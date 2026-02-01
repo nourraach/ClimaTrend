@@ -109,6 +109,3 @@ Tous les résultats sont sauvegardés dans le dossier `results/`.
 - Code Python modulaire et réutilisable
 - Documentation professionnelle
 
-## Auteur
-
-Projet développé dans le cadre d'une candidature pour un stage en modélisation de dynamiques chaotiques et séries temporelles.
