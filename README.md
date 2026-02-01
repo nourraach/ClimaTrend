@@ -1,4 +1,4 @@
-# Analyse de Données Temporelles pour la Modélisation de Comportements
+# ClimaTrend - Analyse de Séries Temporelles Climatiques
 
 **Période:** Septembre - Décembre 2025
 
@@ -57,7 +57,13 @@ pip install -r requirements.txt
 
 ## Utilisation
 
-### 1. Analyse Interactive
+### 1. Exécuter l'analyse complète
+
+```bash
+python run_analysis.py
+```
+
+### 2. Analyse Interactive
 
 Ouvrir le notebook Jupyter pour une analyse complète :
 
@@ -65,7 +71,7 @@ Ouvrir le notebook Jupyter pour une analyse complète :
 jupyter notebook notebooks/main_analysis.ipynb
 ```
 
-### 2. Utilisation des Modules
+### 3. Utilisation des Modules
 
 ```python
 from src.data_loader import load_climate_data, normalize_series
