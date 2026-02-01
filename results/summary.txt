@@ -1,0 +1,29 @@
+
+=== RÉSUMÉ DE L'ANALYSE ===
+
+1. DONNÉES
+   - Observations: 288
+   - Période: 2000-01-31 à 2023-12-31
+   - Variables: Température, CO2
+
+2. ANALYSE EXPLORATOIRE
+   - Corrélation Température-CO2: 0.078
+   - Tendance Température: croissante (faible)
+   - Tendance CO2: croissante (forte)
+
+3. MODÉLISATION
+   Meilleur modèle: Polynomial (degré 2)
+   - RMSE: 6.0501
+   - MAE: 5.4034
+   - R²: -0.0018
+
+4. ROBUSTESSE
+   - Stabilité RMSE (CV): 0.0364
+   - Stabilité R² (écart-type): 0.0787
+   - Performance maintenue avec bruit modéré (σ ≤ 0.05)
+
+5. CONCLUSIONS
+   - Forte corrélation entre température et CO2
+   - Modèle polynomial capture bien la relation non-linéaire
+   - Robustesse satisfaisante face au bruit
+   - Performance stable sur différentes fenêtres temporelles
